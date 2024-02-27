@@ -1,0 +1,29 @@
+.footer {
+    background-color: #212731;
+    // width: 1592px;
+    height: 452px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  
+    .footer-column {
+      text-align: center;
+  
+      ul {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          margin-bottom: 10px;
+          font-size: 26px;
+
+          a {
+            color: white; // Set link color to white
+            text-decoration: none; // Remove underline
+          }
+        }
+      }
+    }
+  }
+  

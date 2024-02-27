@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+.container {
+    height: 60px;
+    background-color: 
+    #212731;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.headerSearch{
+    display: flex;
+    flex-grow: 0.5;
+    height: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 480px;
+    :focus-within{
+        box-shadow: 0 0 0 3px #F90;
+    };
+}
+
+.headerSearchInput {
+    flex-grow: 0.5;
+    border: 0;
+    :focus {
+        outline: none;
+    }
+}
+
+.headerNavItems {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 80px;
+    padding: 15px;
+}
